@@ -362,10 +362,26 @@ body {
   gap: 0.6rem;
 }
 
+.footer__logo-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.footer__logo-link:hover {
+  transform: translateY(-2px);
+}
+
 .footer__logo {
   width: 18px;
   height: 18px;
   opacity: 0.4;
+  transition: opacity 0.3s ease;
+}
+
+.footer__logo-link:hover .footer__logo {
+  opacity: 0.8;
 }
 
 .footer__text {
