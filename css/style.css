@@ -451,4 +451,9 @@ body {
     width: 36px;
     height: 36px;
   }
+
+  .footer__text {
+    font-size: 0.55rem;
+    white-space: nowrap;
+  }
 }
