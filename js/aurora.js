@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Configuration
   const colorStops = ["#7cff67", "#B497CF", "#5227FF"];
-  const amplitude = 1.0;
+  const amplitude = 1.8;
   const blend = 0.5;
   const speed = 0.5;
 

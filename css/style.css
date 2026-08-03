@@ -58,8 +58,9 @@ body {
   height: 100vh;
   z-index: -2;
   overflow: hidden;
-  opacity: 0.8; /* Ajuste a opacidade conforme necessário */
+  opacity: 1; /* Bem visível */
   pointer-events: none;
+  mix-blend-mode: screen;
 }
 .aurora-container canvas {
   width: 100%;
