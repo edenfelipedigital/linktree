@@ -48,9 +48,9 @@ body {
 
 
 /* ============================
-   DARKVEIL BACKGROUND
+   AURORA BACKGROUND
    ============================ */
-.darkveil-container {
+.aurora-container {
   position: fixed;
   top: 0;
   left: 0;
@@ -58,11 +58,11 @@ body {
   height: 100vh;
   z-index: -2;
   overflow: hidden;
-  opacity: 0.35; /* Mais visível */
+  opacity: 1; /* Bem visível */
   pointer-events: none;
+  mix-blend-mode: screen;
 }
-
-.darkveil-canvas {
+.aurora-container canvas {
   width: 100%;
   height: 100%;
   display: block;
@@ -195,7 +195,7 @@ body {
 .marquee__track {
   display: flex;
   width: max-content;
-  animation: marqueeScroll 25s linear infinite;
+  animation: marqueeScroll 100s linear infinite;
 }
 
 .marquee__track:hover {
